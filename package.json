@@ -1,0 +1,23 @@
+{
+  "name": "unittesting-mocha-nodejs",
+  "version": "1.0.0",
+  "description": "this is a sample project to apply  Unit Testing on a nodeJs App",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Muhammad Gouda (Gedo)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mocha": "^9.0.0",
+    "mongoose": "^5.12.13",
+    "pg": "^8.6.0",
+    "supertest": "^6.1.3"
+  }
+}
